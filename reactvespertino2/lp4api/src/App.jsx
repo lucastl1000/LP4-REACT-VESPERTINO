@@ -3,6 +3,7 @@ import './App.css'
 
 import Nitro from './assets/nitro.jpg'
 import AlteraDados from './components/AlteraDados'
+import ListRender from './components/ListRender'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,8 @@ function App() {
         <img src={Nitro} alt="textura na cor vermelha"/>
 
         <AlteraDados/>
+        
+        <ListRender/>
     </div> 
   )
 }
